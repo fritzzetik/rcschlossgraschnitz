@@ -2,6 +2,8 @@
 
 Stand: 9. November 2026. Vom Auftraggeber nach der gemeinsamen Stileinordnung beauftragt.
 
+Aktualisierung vom 9. November 2026: Der Auftraggeber hat anschließend „Pferde am Zaun“ als Startfoto gewählt. Die überlagerten Halloween-Bilder im Einstieg wurden ersetzt; die historische Bildergeschichte bleibt erhalten. Die weiteren Verbesserungen sind in [UX-OPTIMIERUNGEN.md](UX-OPTIMIERUNGEN.md) dokumentiert. Die folgende Beschreibung hält den vorherigen Entwicklungsschritt fest.
+
 ## Gestalterischer Ausgangspunkt
 
 Die bestehende Gestaltung wurde als überwiegend **Editorial Grid / Magazine** mit einer Grundlage aus **Minimalism & Swiss Style** eingeordnet. Diese Einordnung ist eine gestalterische Bewertung anhand der Kategorien aus der folgenden Referenz, keine Zertifizierung oder Messung:
