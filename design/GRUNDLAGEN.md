@@ -46,7 +46,7 @@ Die Inhaltsbereiche werden innerhalb derselben HTML-Datei über Anker wie `#seit
 - Kontakt über Telefon- und E-Mail-Links. Die Website selbst sendet keine Nachrichten.
 - Externe Links führen ausschließlich zu den bewusst verlinkten Facebook- und Medienseiten. Sie werden erst beim Anklicken aufgerufen.
 - Menünavigation, Kontakt-Auswahl, aufklappbare Fragen und Bildvergrößerung funktionieren lokal.
-- 219 Bilder der bisherigen Website wurden für die Auslieferung auf maximal 1.400 Pixel je Kante verkleinert und als WebP komprimiert; zusätzliche Vereinsbilder und das Logo liegen ebenfalls lokal vor. Die ausgelieferte Website verwendet insgesamt 224 unterschiedliche Bilddateien.
+- 219 Bilder der bisherigen Website wurden für die Auslieferung auf maximal 1.400 Pixel je Kante verkleinert und als WebP komprimiert; zusätzliche Vereinsbilder und das Logo liegen ebenfalls lokal vor. Die ausgelieferte Website verwendet nach der Weiterentwicklung insgesamt 223 unterschiedliche Bilddateien; 224 Bilddateien liegen im Paket.
 - Die Entwicklung nutzte zunächst eine React/Vinext-Arbeitsfassung. Dieses Repository enthält bewusst die fertige statische Auslieferung; für Betrieb und Änderungen ist diese Entwicklungsumgebung nicht erforderlich.
 
 ## Redaktionelle Entscheidungen
@@ -58,3 +58,4 @@ Die Inhaltsbereiche werden innerhalb derselben HTML-Datei über Anker wie `#seit
 - Die MeinBezirk-Fundstellen sind als Community-Beiträge bzw. Veranstaltungshinweise gekennzeichnet. Der EQWO-Rückblick nennt eine Pressemeldung als Grundlage. Es wird keine unabhängige redaktionelle Berichterstattung behauptet.
 - Presseartikel werden nur kurz in eigenen Worten zusammengefasst und verlinkt. Medienbilder wurden dafür nicht übernommen.
 - Entfernte Entwurfsvermerke bedeuten keine rechtliche oder fachliche Freigabe. Offene Punkte bleiben in `OFFENE-PUNKTE.md` dokumentiert.
+

@@ -13,6 +13,7 @@ Für die Veröffentlichung den Inhalt von `webseite` auf einen statischen Webser
 - `webseite/`: fertige Website einschließlich aller benötigten Bilder.
 - `design/GRUNDLAGEN.md`: Vorgaben, gestalterische Annahmen und technische Entscheidungen.
 - `design/QUELLEN.md`: Herkunft von Inhalten und Bildern sowie verlinkte Medienbeiträge.
+- `design/WEITERENTWICKLUNG-JUGEND.md`: jüngerer Einstieg, Bildauswahl und Kontaktweg.
 - `design/OFFENE-PUNKTE.md`: fachlich noch zu bestätigende Angaben und Aufgaben vor dem offiziellen Vereinsbetrieb.
 
 ## Änderungen
