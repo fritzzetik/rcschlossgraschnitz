@@ -48,3 +48,8 @@ Das Vereinslogo sowie zusätzliche aktuelle Bilder und Neuigkeiten stammen von d
 ## Grenzen der Quellenlage
 
 Die Recherche ersetzt keine Bestätigung der Angaben durch den Verein. Die Nutzung der bestehenden Bilder für diesen Vorschlag wurde vom Auftraggeber veranlasst; eine gesonderte Prüfung sämtlicher Bild-, Persönlichkeits- und Veröffentlichungsrechte wurde nicht durchgeführt. Für Vereinsbilder und Logo wird durch dieses Repository keine allgemeine Weiterverwendungslizenz erteilt.
+
+
+## Registerabgleich vom 9. November 2026
+
+Vom Auftraggeber übermittelter Vereinsregisterauszug zum Stichtag 9. November 2026: ZVR 239421326, Vereinsname, Sitz und Anschrift sowie Vertretung und Funktionsperiode für Impressum und Vorstand verwendet. Einzelheiten in `VEREINSDATEN.md`. Das Original-PDF ist kein Bestandteil der Website oder des Repositorys.

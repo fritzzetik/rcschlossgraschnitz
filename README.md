@@ -15,6 +15,9 @@ Für die Veröffentlichung den Inhalt von `webseite` auf einen statischen Webser
 - `design/QUELLEN.md`: Herkunft von Inhalten und Bildern sowie verlinkte Medienbeiträge.
 - `design/WEITERENTWICKLUNG-JUGEND.md`: jüngerer Einstieg, Bildauswahl und Kontaktweg.
 - `design/UX-OPTIMIERUNGEN.md`: Lesbarkeit, Handybedienung, vereinfachte Vereinsberichte und ausgewähltes Startfoto.
+- `design/WCAG-CHECK.md`: Barrierefreiheitsbefunde, Korrekturen und verbleibende Tests.
+- `design/BILDTEXTE.csv`: Bilddateien und ihre motivbezogenen Alternativtexte.
+- `design/VEREINSDATEN.md`: Registerabgleich und entfernte Jimdo-Seiten.
 - `design/OFFENE-PUNKTE.md`: fachlich noch zu bestätigende Angaben und Aufgaben vor dem offiziellen Vereinsbetrieb.
 
 ## Änderungen
