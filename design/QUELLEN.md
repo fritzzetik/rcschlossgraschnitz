@@ -53,3 +53,7 @@ Die Recherche ersetzt keine Bestätigung der Angaben durch den Verein. Die Nutzu
 ## Registerabgleich vom 9. November 2026
 
 Vom Auftraggeber übermittelter Vereinsregisterauszug zum Stichtag 9. November 2026: ZVR 239421326, Vereinsname, Sitz und Anschrift sowie Vertretung und Funktionsperiode für Impressum und Vorstand verwendet. Einzelheiten in `VEREINSDATEN.md`. Das Original-PDF ist kein Bestandteil der Website oder des Repositorys.
+
+## Reit-Viten vom 9. November 2026
+
+Die Kurz-Viten auf Vorstand und Team sowie Christoph Fenz' sportliche Erfolge sind mit Einzelnachweisen und redaktionellen Abgrenzungen in [REIT-VITEN-QUELLEN.md](REIT-VITEN-QUELLEN.md) dokumentiert.

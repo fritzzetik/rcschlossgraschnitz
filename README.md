@@ -13,6 +13,7 @@ Für die Veröffentlichung den Inhalt von `webseite` auf einen statischen Webser
 - `webseite/`: fertige Website einschließlich aller benötigten Bilder.
 - `design/GRUNDLAGEN.md`: Vorgaben, gestalterische Annahmen und technische Entscheidungen.
 - `design/QUELLEN.md`: Herkunft von Inhalten und Bildern sowie verlinkte Medienbeiträge.
+- `design/REIT-VITEN-QUELLEN.md`: belegte Kurz-Viten und sportliche Erfolge mit Quellen und Jahresangaben.
 - `design/WEITERENTWICKLUNG-JUGEND.md`: jüngerer Einstieg, Bildauswahl und Kontaktweg.
 - `design/UX-OPTIMIERUNGEN.md`: Lesbarkeit, Handybedienung, vereinfachte Vereinsberichte und ausgewähltes Startfoto.
 - `design/WCAG-CHECK.md`: Barrierefreiheitsbefunde, Korrekturen und verbleibende Tests.
