@@ -1,0 +1,136 @@
+{
+  "before": {
+    "file": "before.html",
+    "passed": 10,
+    "total": 15,
+    "results": [
+      {
+        "name": "Öffnen und zugänglicher Zustand",
+        "pass": true
+      },
+      {
+        "name": "Fokusverlust ohne Folgeziel lässt Menü offen",
+        "pass": false
+      },
+      {
+        "name": "Link nach null-focusout trifft Ziel und schließt",
+        "pass": false
+      },
+      {
+        "name": "Hamburger-Symbol nach null-focusout schließt einmal",
+        "pass": false
+      },
+      {
+        "name": "Klick außerhalb schließt",
+        "pass": false
+      },
+      {
+        "name": "Fokus innerhalb bleibt offen",
+        "pass": true
+      },
+      {
+        "name": "Fokus auf Hamburger bleibt offen",
+        "pass": true
+      },
+      {
+        "name": "Fokus vom Hamburger nach außen schließt",
+        "pass": false
+      },
+      {
+        "name": "Fokus aus Navigation auf anderes Seitenelement schließt",
+        "pass": true
+      },
+      {
+        "name": "Escape schließt und gibt Fokus zurück",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Zum ersten Mal hier?",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Reiten lernen",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Unser Zuhause",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Verein & Infos",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Für Eltern",
+        "pass": true
+      }
+    ]
+  },
+  "after": {
+    "file": "index.html",
+    "passed": 15,
+    "total": 15,
+    "results": [
+      {
+        "name": "Öffnen und zugänglicher Zustand",
+        "pass": true
+      },
+      {
+        "name": "Fokusverlust ohne Folgeziel lässt Menü offen",
+        "pass": true
+      },
+      {
+        "name": "Link nach null-focusout trifft Ziel und schließt",
+        "pass": true
+      },
+      {
+        "name": "Hamburger-Symbol nach null-focusout schließt einmal",
+        "pass": true
+      },
+      {
+        "name": "Klick außerhalb schließt",
+        "pass": true
+      },
+      {
+        "name": "Fokus innerhalb bleibt offen",
+        "pass": true
+      },
+      {
+        "name": "Fokus auf Hamburger bleibt offen",
+        "pass": true
+      },
+      {
+        "name": "Fokus vom Hamburger nach außen schließt",
+        "pass": true
+      },
+      {
+        "name": "Fokus aus Navigation auf anderes Seitenelement schließt",
+        "pass": true
+      },
+      {
+        "name": "Escape schließt und gibt Fokus zurück",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Zum ersten Mal hier?",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Reiten lernen",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Unser Zuhause",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Verein & Infos",
+        "pass": true
+      },
+      {
+        "name": "Menüpunkt Für Eltern",
+        "pass": true
+      }
+    ]
+  }
+}

@@ -1110,8 +1110,9 @@ Terminvereinbarung unter 0664 3400331
 </figure><section aria-label="Bildinhalt als Text" class="image-transcript"><h2>Elfen- und Zwergerlreiten mit Schneewittchen</h2><p>Ponyführen &amp; Co, 35 Minuten einzeln.</p><ul><li>10er-Block: 275 Euro.</li><li>3er-Block: 95 Euro.</li></ul><p>Terminvereinbarung: 0664 3400331. E-Mail im Flyer: rc.graschnitz@gmail.com. Website im Flyer: rc-schloss-graschnitz.jimdo.com.</p></section>
 </div><a class="button coral" href="#seitenuebersicht">Alle Vereinsbereiche <svg aria-hidden="true" class="lucide lucide-arrow-right" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></article></div><footer class="wrap"><a class="brand" href="#start"><img alt="ASVÖ Reitclub Graschnitz – offizielles Vereinslogo" class="club-logo" height="650" src="images/vereinslogo.jpg" width="650"/><span>Schloss Graschnitz<small>MIT HERZ. MIT PFERD. MITEINANDER.</small></span></a><div><a href="#seite-impressum">Impressum</a><a href="#seite-datenschutz">Datenschutz</a><a href="#presse">Presse</a><a href="#seitenuebersicht">Alle Bereiche</a></div><p>ASVÖ Reitclub Schloss Graschnitz · Mit Herz. Mit Pferd. Miteinander.</p></footer><style>.offline-dialog{border:0;background:#1e3353;color:#fff;max-width:95vw;padding:45px 20px 15px;border-radius:8px}.offline-dialog::backdrop{background:#17283aec}.offline-dialog figure{margin:0}.offline-dialog img{max-height:76vh;max-width:85vw;object-fit:contain}.offline-dialog figcaption{text-align:center;padding:15px}.offline-dialog .close{font-size:27px}.offline-dialog:not([open]){display:none}</style><script>
 const menu=document.querySelector('.menu-button'),nav=document.querySelector('nav');
+function closeNav(){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Menü öffnen');}
 menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Menü schließen':'Menü öffnen');if(open)nav.querySelector('a').focus();});
-nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Menü öffnen');}));
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeNav));
 const select=document.querySelector('#interest');
 function contact(){const stable=select.value.includes('Einstellplatz');const box=document.querySelector('.contact-box');box.querySelector('h3').textContent=stable?'Einstellbetrieb':'Christoph · Schulbetrieb';box.querySelector('p').textContent=stable?'Fragt nach verfügbaren Plätzen und den Leistungen für euer Pferd.':'Besprecht eure Wünsche, mögliche Termine und aktuelle Preise ganz persönlich.';const a=box.querySelector('.button');a.href=stable?'tel:+436642645793':'tel:+4366499925686';a.textContent=(stable?'+43 664 264 57 93':'+43 664 999 25 686')+' ↗';}
 select.addEventListener('change',contact);
@@ -1130,7 +1131,7 @@ document.querySelectorAll('.zoom-image,.gallery .story-photo').forEach(button=>b
 dialog.addEventListener('close',()=>{if(photoTrigger?.isConnected)photoTrigger.focus({preventScroll:true});});
 document.addEventListener('keydown',event=>{
   if(event.key==='Escape'&&nav.classList.contains('open')){
-    nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Menü öffnen');menu.focus();
+    closeNav();menu.focus();
   }
 });
 function focusDestination(){
@@ -1146,7 +1147,16 @@ document.querySelector('.skip-link').addEventListener('click',event=>{
   else if(location.hash==='#start')focusDestination();
 });
 
-nav.addEventListener('focusout',event=>{if(!nav.contains(event.relatedTarget)&&event.relatedTarget!==menu){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Menü öffnen');}});
+// A null relatedTarget also occurs on touch devices; it is not an outside click.
+function closeNavOnFocusLeave(event){
+  if(event.relatedTarget&&!nav.contains(event.relatedTarget)&&!menu.contains(event.relatedTarget))closeNav();
+}
+nav.addEventListener('focusout',closeNavOnFocusLeave);
+menu.addEventListener('focusout',closeNavOnFocusLeave);
+// Wait for click so tapping a menu link can finish before its menu is hidden.
+document.addEventListener('click',event=>{
+  if(nav.classList.contains('open')&&!nav.contains(event.target)&&!menu.contains(event.target))closeNav();
+});
 function updatePageTitle(){const current=document.querySelector('.content-page:target h1');document.title=current?current.textContent+' · Reitclub Graschnitz':'RC Schloss Graschnitz · Dein Herz schlägt für Pferde?';}
 window.addEventListener('hashchange',updatePageTitle);updatePageTitle();
 </script></body></html>

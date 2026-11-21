@@ -54,3 +54,7 @@ Es wurde kein axe-, Lighthouse- oder vollständiger Screenreader-Prüflauf ausge
 - [1.4.12 Textabstände](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html)
 - [2.5.3 Beschriftung im Namen](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html)
 - [2.4.11 Nicht verdeckter Fokus](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html)
+
+## Nachtrag vom 21. November 2026: mobile Navigation
+
+Vorzeitiges Schließen bei Fokusverlust ohne Folgeziel korrigiert; Außenklick und Tastaturwechsel über den Hamburger geprüft. Details und Testgrenzen stehen in [MOBILE-NAVIGATION.md](MOBILE-NAVIGATION.md). Die offenen Geräte-, Screenreader- und Zoomtests sind damit nicht abgeschlossen.
